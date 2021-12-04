@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9044191661648610005
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -20,23 +7,19 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CrossSectionPlane
-  m_Shader: {fileID: 4800000, guid: 14133eb4b9cd76142b03580f4aae27ee, type: 3}
+  m_Name: Sub3
+  m_Shader: {fileID: 4800000, guid: c9ef3fc10fa045e4a84a9638e240e105, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_e0af501b63474339947e081b2d7f5e59:
-        m_Texture: {fileID: 2800000, guid: 1926d72aee6ebef42b5e5b0b3c715026, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BaseMap:
+    - Texture2D_749cf82b63f148329502ab7811174366:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -76,10 +59,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -93,37 +72,37 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
     - _BumpScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
     - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
+    - _GlossMapScale: 1
     - _Glossiness: 0
-    - _GlossyReflections: 0
+    - _GlossyReflections: 1
     - _Metallic: 0
+    - _Mode: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
+    - _StencilMask: 255
+    - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - Color_b791af217fb748d389c16c2b4c3d4591: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    - Vector2_8c9ffd2bcd734e2e850e52fd85da519d: {r: 2, g: 2, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - Color_27a03e4caca545619b0c0ce31fdd17b8: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - Color_4937b32baf6848678c32e85a81b0ba8e: {r: 0.42352942, g: 0.54901963, b: 0.69803923, a: 0}
+    - Vector3_Plane1_Normal: {r: 0, g: 1, b: 0, a: 0}
+    - Vector3_Plane1_Position: {r: 0, g: 0.2, b: 0, a: 0}
+    - Vector3_Plane2_Normal: {r: 0, g: -1, b: 0, a: 0}
+    - Vector3_Plane2_Position: {r: 0, g: -0.3, b: 0, a: 0}
+    - _Color: {r: 0.423079, g: 0.5492653, b: 0.697, a: 1}
+    - _CrossColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Plane1Normal: {r: 0, g: 1, b: 0, a: 0}
+    - _Plane1Position: {r: 0, g: 0, b: 0, a: 1}
+    - _Plane2Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _Plane2Position: {r: 0, g: 0, b: 0, a: 1}
+    - _PlaneNormal: {r: 0, g: 1, b: 0, a: 0}
+    - _PlanePosition: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

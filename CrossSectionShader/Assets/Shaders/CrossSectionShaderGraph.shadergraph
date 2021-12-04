@@ -20,9 +20,6 @@
         },
         {
             "m_Id": "8bc251e36e854395ae320b9c0dbde479"
-        },
-        {
-            "m_Id": "27a03e4caca545619b0c0ce31fdd17b8"
         }
     ],
     "m_Keywords": [],
@@ -785,30 +782,6 @@
         "z": 0.0,
         "w": 0.0
     }
-}
-
-{
-    "m_SGVersion": 3,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
-    "m_ObjectId": "27a03e4caca545619b0c0ce31fdd17b8",
-    "m_Guid": {
-        "m_GuidSerialized": "86bc5d74-80f1-46e3-add8-aaffa2d5eedf"
-    },
-    "m_Name": "CapColor",
-    "m_DefaultReferenceName": "Color_27a03e4caca545619b0c0ce31fdd17b8",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "r": 0.501960813999176,
-        "g": 0.501960813999176,
-        "b": 0.501960813999176,
-        "a": 1.0
-    },
-    "m_ColorMode": 0
 }
 
 {

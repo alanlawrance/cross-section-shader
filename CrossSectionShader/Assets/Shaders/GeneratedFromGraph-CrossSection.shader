@@ -8,7 +8,6 @@ Shader "URP/CrossSection"
         Vector3_Plane1_Normal("Plane1_Norrmal", Vector) = (0, 1, 0, 0)
         Vector3_Plane2_Position("Plane2_Position", Vector) = (0, -0.3, 0, 0)
         Vector3_Plane2_Normal("Plane2_Normal", Vector) = (0, -1, 0, 0)
-        Color_27a03e4caca545619b0c0ce31fdd17b8("CapColor", Color) = (0.5019608, 0.5019608, 0.5019608, 1)
         [HideInInspector][NoScaleOffset]unity_Lightmaps("unity_Lightmaps", 2DArray) = "" {}
         [HideInInspector][NoScaleOffset]unity_LightmapsInd("unity_LightmapsInd", 2DArray) = "" {}
         [HideInInspector][NoScaleOffset]unity_ShadowMasks("unity_ShadowMasks", 2DArray) = "" {}
